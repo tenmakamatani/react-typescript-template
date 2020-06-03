@@ -1,7 +1,7 @@
 {
-  "name": "guinfra-web",
+  "name": "react-typescript-template",
   "version": "1.0.0",
-  "main": "index.ts",
+  "main": "src/index.ts",
   "license": "MIT",
   "scripts": {
     "dev": "NODE_ENV=development webpack-dev-server",
