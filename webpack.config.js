@@ -17,8 +17,7 @@ module.exports = {
   resolve: {
     extensions: [".ts", ".tsx", ".js"],
     alias: {
-      "$types": path.resolve(__dirname, "../src/types/"),
-      "$modules": path.resolve(__dirname, "../src/modules/")
+      "@src": path.resolve(__dirname, "./src/"),
     }
   },
   module: {
